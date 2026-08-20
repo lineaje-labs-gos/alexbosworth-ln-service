@@ -87,5 +87,11 @@
     "integration-test-0.14.4": "DOCKER_LND_VERSION=v0.14.4-beta npm run test",
     "test": "echo $DOCKER_LND_VERSION && node test/runner"
   },
-  "version": "58.0.0-lineaje-01"
+  "version": "58.0.0-lineaje-01",
+  "overrides": {
+    "@grpc/grpc-js": ">=1.14.4"
+  },
+  "resolutions": {
+    "@grpc/grpc-js": ">=1.14.4"
+  }
 }
