@@ -44,11 +44,17 @@
     "lnd"
   ],
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "main": "index.js",
   "name": "ln-service",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexbosworth/ln-service.git"
+    "url": "https://github.com/lineaje-labs-gos/alexbosworth-ln-service"
   },
   "scripts": {
     "integration-test-0.20.0": "DOCKER_LND_VERSION=v0.20.0-beta npm run test",
@@ -81,5 +87,5 @@
     "integration-test-0.14.4": "DOCKER_LND_VERSION=v0.14.4-beta npm run test",
     "test": "echo $DOCKER_LND_VERSION && node test/runner"
   },
-  "version": "58.0.0"
+  "version": "58.0.0-lineaje-01"
 }
